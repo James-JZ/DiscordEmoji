@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "logovision-194815",
+  "private_key_id": "aa1a568fa6e31921faeff4c03405a65d5d9742eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7sMRF7Vh6PP6T\n/Rky2OhI6yEu/+JAfkPDa364cv8yYqyYNrQfAYeN8jPbQ8MgX2BLlTuKGmNhVMQ7\nbGIe0RZZ4Q1AWPcWU38P0R/kl35469+WaLH2XafqKAH1qOl0xkK6RtRN64YcizhX\nW8h0BWgdv3SOg9PJlI1ZnJTkTTbqBm+nZPsnRVLHQk85k8VBiWoSegOfh8U8nWo9\nvrzjrHv6LALuBJDOWZJrDeUouGLEprdkEAIxIYo3JdaFUNDSRuWdP5+P33cmPJeh\n/d5A9rV+bttrRrFQYABqgCW91nM1uPyK6PvCDU0Bed3eCFM1p9cH0PrNGkjNVglC\ntkKOjyW7AgMBAAECggEAWOTCOPpONurviijMB/yam3qdh1STFIeY0ZP2eyaf/n2k\nkB0Ml0jSqmSFsfo4jvsNMQ8XmXOhEQakQB63pC/UPbJs48afFDhsjBG4YLxtnpjc\nlzCz5OL7tdfIAdFD7NY/4VjNkbAUny1C/IEQgf7Tjo9QhXUjWCxe/AvAqxZ1BUZA\nKaQZiK29AIv5ZxJONGn2FQj9klLoqd3gyvgHTDs//qmNBRxe2tUoow1KB3+Sw5pq\nQkk5UMKjyCWUcImO8DuGtmrz0ysMpy+Sqmpeja9pv8Usb9yo6kT1LPNVEEazyuvn\nRG8aIXwPJRVixNnVLFOkfB18JMXpmvU07/7SlPpuHQKBgQD+T1RC6qgUZ8OZvWGv\nSO+//O1FW15QfDxTkKCq6Ev67h6WxElLlcrBXsoNWOTPCPxIdWcIQT2QQVMYkbJs\nrHOw2ZEiuUMzeoSw5PmD9M5mvYgwM244TiT0Fisu0AvGdrrmAHVHV1vQn44mR4Ri\nQZoCfnrsUw2Drs78G0A/LDpjZwKBgQC88BguqT+wrG2oU2bKH/CRpH/7vry9sucD\n47rpbCU5ETgaI8YIoweSzDktoi31uqQ+oxVvWXJ+avGaiBMhpTNYHSZTpicmiMrP\nYJLw2y239CXbEwT7gqeGS4cOVJZIGJNrvUp9vjXqceiNIbeAKJBIilN8PLqViCwK\nXFV79fyqjQKBgGuQkktbhYxb91fnypGhgAbsrE9Rviq84adW3R5s8vZIEZgjnfzi\ndsgjl8LdfqozWsIrJlFPhwKlHsidl6Jvrt92pvTQ96OmhslrkD5IJaU/NYNtvYkD\nRI4ZclpylQh038i5GOH8CVHMqwt15IDKzqGPbd7Xoje4kMQBosMVqfyxAoGAAlaK\nRhGMGziXBs05aWjpxjOd7dSXa1WKbE7mIjtXXpRq+E/XBIZX8qYaUwk9vlu36pqE\nCmO1+gCCyuHCMtljgESkE8brlxt8PwK37skXkL4xtbtPhXlBb3UBz9iWH4BGWr/1\n6wZujl8ofI6dQbW+y1cC33e062LLALnRyP3rSYUCgYAqr6Q3Y2NSaZzV6QYOhgDo\nlBgeY8NnRG54/yA8iZ27EmyA5a3f1qcg1VbOwO/5cbQ14W4P8SmFwuRpDJXG54Fb\nxoaz+01g7oEjOaXXhGVFjllXDL1ydhFPFb1y1JAUdSPPX9m0NTZJyg+9lxbYh44o\n0cO4JxaJeBFNHULsEyOLIA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "randy-52@logovision-194815.iam.gserviceaccount.com",
+  "client_id": "112480799342713986324",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/randy-52%40logovision-194815.iam.gserviceaccount.com"
+}
