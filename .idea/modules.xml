@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DiscordEmoji.iml" filepath="$PROJECT_DIR$/.idea/DiscordEmoji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.JDA.iml" filepath="$PROJECT_DIR$/.idea/modules/org.JDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.JDA_main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.JDA_main.iml" group="org.JDA" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.JDA_test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.JDA_test.iml" group="org.JDA" />
+    </modules>
+  </component>
+</project>
