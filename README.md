@@ -1,1 +1,1 @@
-# Java DiscordEmoji Bot
+# Java DiscordEmoji irmaoverflow.emoji.bot.Bot
