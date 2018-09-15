@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../org.JDA/src/main"/>
+	<levels>
+		<level name="Gradle: net.dv8tion:JDA:3.7.1_422" value="project"/>
+		<level name="Gradle: com.google.cloud:google-cloud-vision:1.40.0" value="project"/>
+		<level name="Gradle: com.google.cloud:google-cloud-core-grpc:1.40.0" value="project"/>
+		<level name="Gradle: com.google.cloud:google-cloud-core:1.40.0" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:0.23.0" value="project"/>
+		<level name="Gradle: com.google.api:gax-grpc:1.30.0" value="project"/>
+		<level name="Gradle: com.google.api:gax:1.30.0" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-iam-v1:0.12.0" value="project"/>
+		<level name="Gradle: com.google.api:api-common:1.7.0" value="project"/>
+		<level name="Gradle: io.grpc:grpc-netty-shaded:1.13.1" value="project"/>
+		<level name="Gradle: io.grpc:grpc-stub:1.13.1" value="project"/>
+		<level name="Gradle: io.grpc:grpc-auth:1.13.1" value="project"/>
+		<level name="Gradle: io.grpc:grpc-protobuf:1.13.1" value="project"/>
+		<level name="Gradle: io.grpc:grpc-protobuf-lite:1.13.1" value="project"/>
+		<level name="Gradle: io.grpc:grpc-core:1.13.1" value="project"/>
+		<level name="Gradle: com.google.auth:google-auth-library-oauth2-http:0.10.0" value="project"/>
+		<level name="Gradle: com.google.http-client:google-http-client-jackson2:1.19.0" value="project"/>
+		<level name="Gradle: com.google.http-client:google-http-client:1.24.1" value="project"/>
+		<level name="Gradle: com.google.code.findbugs:jsr305:3.0.2" value="project"/>
+		<level name="Gradle: org.jetbrains:annotations:16.0.1" value="project"/>
+		<level name="Gradle: org.slf4j:slf4j-api:1.7.25" value="project"/>
+		<level name="Gradle: com.neovisionaries:nv-websocket-client:2.5" value="project"/>
+		<level name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" value="project"/>
+		<level name="Gradle: club.minnced:opus-java:pom:1.0.4" value="project"/>
+		<level name="Gradle: org.apache.commons:commons-collections4:4.1" value="project"/>
+		<level name="Gradle: org.json:json:20160810" value="project"/>
+		<level name="Gradle: net.sf.trove4j:trove4j:3.0.3" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1:1.22.0" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:0.23.0" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:1.22.0" value="project"/>
+		<level name="Gradle: com.squareup.okio:okio:1.13.0" value="project"/>
+		<level name="Gradle: club.minnced:opus-java-api:1.0.4" value="project"/>
+		<level name="Gradle: club.minnced:opus-java-natives:1.0.4" value="project"/>
+		<level name="Gradle: com.google.protobuf:protobuf-java-util:3.6.0" value="project"/>
+		<level name="Gradle: com.google.guava:guava:20.0" value="project"/>
+		<level name="Gradle: joda-time:joda-time:2.9.2" value="project"/>
+		<level name="Gradle: com.google.api.grpc:proto-google-common-protos:1.12.0" value="project"/>
+		<level name="Gradle: com.google.auth:google-auth-library-credentials:0.10.0" value="project"/>
+		<level name="Gradle: com.google.protobuf:protobuf-java:3.6.0" value="project"/>
+		<level name="Gradle: io.grpc:grpc-context:1.13.1" value="project"/>
+		<level name="Gradle: net.java.dev.jna:jna:4.4.0" value="project"/>
+		<level name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" value="project"/>
+		<level name="Gradle: org.threeten:threetenbp:1.3.3" value="project"/>
+		<level name="Gradle: com.google.code.gson:gson:2.7" value="project"/>
+		<level name="Gradle: com.google.errorprone:error_prone_annotations:2.1.2" value="project"/>
+		<level name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.12.3" value="project"/>
+		<level name="Gradle: io.opencensus:opencensus-api:0.12.3" value="project"/>
+		<level name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" value="project"/>
+		<level name="Gradle: commons-logging:commons-logging:1.2" value="project"/>
+		<level name="Gradle: commons-codec:commons-codec:1.9" value="project"/>
+		<level name="Gradle: com.fasterxml.jackson.core:jackson-core:2.1.3" value="project"/>
+	</levels>
+</component>

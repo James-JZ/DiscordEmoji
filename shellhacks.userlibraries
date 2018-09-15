@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: io.grpc:grpc-netty-shaded:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.13.1/ccdc4f2c2791d93164c574fbfb90d614aa0849ae/grpc-netty-shaded-1.13.1.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-common-protos:1.12.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.12.0/1140cc74df039deb044ed0e320035e674dc13062/proto-google-common-protos-1.12.0.jar" />
+  </library>
+  <library name="Gradle: com.google.auth:google-auth-library-oauth2-http:0.10.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.10.0/c079a62086121973a23d90f54e2b8c13050fa39d/google-auth-library-oauth2-http-0.10.0.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client-jackson2:1.19.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api:gax-grpc:1.30.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.30.0/ada82a4a0c020807e1c1a674b18658374264e401/gax-grpc-1.30.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-iam-v1:0.12.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.12.0/ea312c0250a5d0a7cdd1b20bc2c3259938b79855/proto-google-iam-v1-0.12.0.jar" />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p3beta1:0.23.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1p3beta1/0.23.0/40861b68d3065e9a7625782c8f0630e0357d52f9/proto-google-cloud-vision-v1p3beta1-0.23.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api:gax:1.30.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.30.0/58fa2feb11b092be0a6ebe705a28736f12374230/gax-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.12.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.12.3/a4c7ff238a91b901c8b459889b6d0d7a9d889b4d/opencensus-contrib-grpc-metrics-0.12.3.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-protobuf:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.13.1/832f531a79249af2d9c1d50168301ba2bc45b54b/grpc-protobuf-1.13.1.jar" />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.6">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar" />
+  </library>
+  <library name="Gradle: com.google.protobuf:protobuf-java:3.6.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.0/5333f7e422744d76840c08a106e28e519fbe3acd/protobuf-java-3.6.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-protobuf-lite:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.13.1/6ca13585100ad99e1c6140a7c8138dd96596aaf5/grpc-protobuf-lite-1.13.1.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-auth:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.13.1/96327e5774b7e0ed7f47043af9ff4fbc7f00f36/grpc-auth-1.13.1.jar" />
+  </library>
+  <library name="Gradle: com.google.protobuf:protobuf-java-util:3.6.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.6.0/3680d0042d4fe0b95ada844ff24da0698a7f0773/protobuf-java-util-3.6.0.jar" />
+  </library>
+  <library name="Gradle: com.google.cloud:google-cloud-vision:1.40.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-vision/1.40.0/c9f2264672bd57977ae0876f319125ead5a675b3/google-cloud-vision-1.40.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1:1.22.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1/1.22.0/e58e7b0fb53f4a7c9dd5b30ee72c6650e36df52e/proto-google-cloud-vision-v1-1.22.0.jar" />
+  </library>
+  <library name="Gradle: com.google.code.findbugs:jsr305:3.0.2">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:1.22.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1p2beta1/1.22.0/aa8f8a0edae35bf1d0c28795fbc2feb7eadc9c02/proto-google-cloud-vision-v1p2beta1-1.22.0.jar" />
+  </library>
+  <library name="Gradle: com.google.errorprone:error_prone_annotations:2.1.2">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.1.2/6dcc08f90f678ac33e5ef78c3c752b6f59e63e0c/error_prone_annotations-2.1.2.jar" />
+  </library>
+  <library name="Gradle: joda-time:joda-time:2.9.2">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.2/36d6e77a419cb455e6fd5909f6f96b168e21e9d0/joda-time-2.9.2.jar" />
+  </library>
+  <library name="Gradle: com.google.cloud:google-cloud-core:1.40.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.40.0/4985701f989030e262cf8f4e38cc954115f5b082/google-cloud-core-1.40.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:0.23.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1p1beta1/0.23.0/8dc37b07a5685fd6270d2ce70468c93fcf6e054e/proto-google-cloud-vision-v1p1beta1-0.23.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api:api-common:1.7.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.7.0/ea59fb8b2450999345035dec8a6f472543391766/api-common-1.7.0.jar" />
+  </library>
+  <library name="Gradle: com.google.guava:guava:20.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.1.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar" />
+  </library>
+  <library name="Gradle: commons-logging:commons-logging:1.2">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+  </library>
+  <library name="Gradle: commons-codec:commons-codec:1.9">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
+  </library>
+  <library name="Gradle: io.opencensus:opencensus-api:0.12.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.12.3/743f074095f29aa985517299545e72cc99c87de0/opencensus-api-0.12.3.jar" />
+  </library>
+  <library name="Gradle: com.google.auth:google-auth-library-credentials:0.10.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.10.0/f981288bd84fe6d140ed70d1d8dbe994a64fa3cc/google-auth-library-credentials-0.10.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-stub:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.13.1/2fc6e85e459ac522a3d81a78add8b6695f7525f1/grpc-stub-1.13.1.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-core:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.13.1/74f5300e1e4d5c2abc0e4fc927d24f4f593c5a7d/grpc-core-1.13.1.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client:1.24.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.24.1/396eac8d3fb1332675f82b208f48a469d64f3b4a/google-http-client-1.24.1.jar" />
+  </library>
+  <library name="Gradle: org.threeten:threetenbp:1.3.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/3ea31c96676ff12ab56be0b1af6fff61d1a4f1f2/threetenbp-1.3.3.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-context:1.13.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.13.1/e8d8407217ffe43996700f667fa1f6bee0a8c19a/grpc-context-1.13.1.jar" />
+  </library>
+  <library name="Gradle: com.google.code.gson:gson:2.7">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar" />
+  </library>
+  <library name="Gradle: com.google.cloud:google-cloud-core-grpc:1.40.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-grpc/1.40.0/f1f7a81915728eb53b9d3832f3ccec53ea181664/google-cloud-core-grpc-1.40.0.jar" />
+  </library>
+  <library name="Gradle: com.squareup.okio:okio:1.13.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar" />
+  </library>
+  <library name="Gradle: org.json:json:20160810">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.json/json/20160810/aca5eb39e2a12fddd6c472b240afe9ebea3a6733/json-20160810.jar" />
+  </library>
+  <library name="Gradle: club.minnced:opus-java-api:1.0.4">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/club.minnced/opus-java-api/1.0.4/20e4fafa8523ed391446ddc7dff60ef832f1543a/opus-java-api-1.0.4.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:slf4j-api:1.7.25">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
+  </library>
+  <library name="Gradle: net.dv8tion:JDA:3.7.1_422">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.7.1_422/e4c584fe0e9fba7188c8fdedb78bdce4d458a735/JDA-3.7.1_422.jar" />
+  </library>
+  <library name="Gradle: com.neovisionaries:nv-websocket-client:2.5">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.neovisionaries/nv-websocket-client/2.5/562c5e33fbb23a576d5ae9b359dd554ce79de37e/nv-websocket-client-2.5.jar" />
+  </library>
+  <library name="Gradle: club.minnced:opus-java-natives:1.0.4">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/club.minnced/opus-java-natives/1.0.4/292d015243833578eda04b1ad0af2dc351b14b1b/opus-java-natives-1.0.4.jar" />
+  </library>
+  <library name="Gradle: org.jetbrains:annotations:16.0.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.1/c1a6655cebcac68e63e4c24d23f573035032eb2a/annotations-16.0.1.jar" />
+  </library>
+  <library name="Gradle: club.minnced:opus-java:pom:1.0.4">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/club.minnced/opus-java/1.0.4/596995aaf2f5b5091c4d251fdc11fa62680cc59e/opus-java-1.0.4.pom" />
+  </library>
+  <library name="Gradle: net.java.dev.jna:jna:4.4.0">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar" />
+  </library>
+  <library name="Gradle: net.sf.trove4j:trove4j:3.0.3">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar" />
+  </library>
+  <library name="Gradle: com.squareup.okhttp3:okhttp:3.8.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar" />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-collections4:4.1">
+    <archive path="/Users/Randy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar" />
+  </library>
+</eclipse-userlibraries>
+
