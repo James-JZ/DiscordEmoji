@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component jdk="1.8" jdk_type="JavaSDK">
-	<contentEntry url="file://$MODULE_DIR$/../../org.JDA">
-		<excludeFolder url="file://$MODULE_DIR$/../../org.JDA/.gradle"/>
-		<excludeFolder url="file://$MODULE_DIR$/../../org.JDA/build"/>
-		<excludeFolder url="file://$MODULE_DIR$/../../org.JDA/out"/>
-	</contentEntry>
-</component>
