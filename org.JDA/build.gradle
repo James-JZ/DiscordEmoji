@@ -16,4 +16,5 @@ dependencies {
     compile ('net.dv8tion:JDA:VERSION') {
         exclude module: 'opus-java'
     }
+    compile 'com.google.cloud:google-cloud-vision:1.40.0'
 }
