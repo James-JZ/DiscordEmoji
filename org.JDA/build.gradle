@@ -19,4 +19,5 @@ repositories {
 dependencies {
     compile "net.dv8tion:JDA:$jdaVersion"
     compile 'com.google.cloud:google-cloud-vision:1.40.0'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
 }
