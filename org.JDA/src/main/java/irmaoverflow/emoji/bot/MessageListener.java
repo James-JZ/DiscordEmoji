@@ -50,11 +50,18 @@ public class MessageListener extends ListenerAdapter
                             Message message = new MessageBuilder().append("My message").build();
                             event.getTextChannel().sendFile(new File("results.jpg"), message).queue();
 
+                            System.out.println(event.getMessage().getGuild().getId());
+                            System.out.println(event.getMessage().getGuild());
+                            EmojiUpload eu = new EmojiUpload(file, event.getMessage().getGuild().getId());
+                            eu.sendEmojiRequest();
+
                             File xd = new File("results.jpg");
                             xd.delete();
 
                             File original = new File(downloadedFile);
                             original.delete();
+
+
 
 
                         } catch (Exception e) {
