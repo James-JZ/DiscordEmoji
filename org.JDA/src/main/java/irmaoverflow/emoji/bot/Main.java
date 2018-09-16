@@ -11,7 +11,6 @@ public class Main {
 
             JDA jda = new JDABuilder(AccountType.BOT).setToken(Constants.TOKEN).buildBlocking();
             jda.addEventListener(new MessageListener());
-            CloudFunctions cf = new CloudFunctions(fileName);
         }
         catch(Exception e) {
             System.out.print(e);

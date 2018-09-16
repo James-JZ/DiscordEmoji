@@ -19,7 +19,7 @@ public class CropImage {
   public static void crop(String url, ArrayList<Vertex> coords) throws IOException
   {
     // Read in path to image.
-    URL imageFile = new URL(url);
+    File imageFile = new File(url);
 
     // Create a bufferered Image object using the path to the image.
     BufferedImage bufferedImage = ImageIO.read(imageFile);
@@ -32,7 +32,7 @@ public class CropImage {
     int y = coords.get(0).getY();
     int xRange = coords.get(1).getX();
     int yRange = coords.get(2).getY();
-
+    System.out.println("YES");
     // Crop the image. JAMES: 375, 836, 1058/2, 1519
     BufferedImage croppedImage = cropImage(bufferedImage, x, y, xRange-x, yRange-y);
 
@@ -40,8 +40,12 @@ public class CropImage {
     File pathFile = new File("face.jpg");
 
     // Writing the cropped image.
-    ImageIO.write(croppedImage,"jpg", pathFile);
-
+    try {
+      ImageIO.write(croppedImage, "jpg", new File("results.jpg"));
+    }
+    catch(Exception e) {
+      e.printStackTrace();
+    }
 
   }
 }
