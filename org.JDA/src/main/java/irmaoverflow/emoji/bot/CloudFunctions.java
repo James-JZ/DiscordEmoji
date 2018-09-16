@@ -73,7 +73,7 @@ public class CloudFunctions {
                 }
 
                 for (FaceAnnotation annotation : res.getFaceAnnotationsList()) {
-                    for(Vertex v : annotation.getBoundingPoly().getVerticesList()) {
+                    for(Vertex v : annotation.getFdBoundingPoly().getVerticesList()) {
                         ans.add(v);
 
                     }
