@@ -18,7 +18,7 @@ gradle-app.setting
 
 # From https://github.com/github/gitignore/blob/master/Java.gitignore
 *.class
-
+*.iml
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
