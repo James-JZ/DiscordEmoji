@@ -5,15 +5,13 @@ package irmaoverflow.emoji.bot;
 import com.google.cloud.vision.v1.*;
 import com.google.cloud.vision.v1.Feature.Type;
 import com.google.protobuf.ByteString;
+
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.URL;
 
 public class CloudFunctions {
@@ -83,7 +81,6 @@ public class CloudFunctions {
         catch(Exception e) {
             e.printStackTrace();
         }
-        System.out.println(ans);
         return ans;
     }
 }

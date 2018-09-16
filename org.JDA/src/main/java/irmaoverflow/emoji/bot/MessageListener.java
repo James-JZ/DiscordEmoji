@@ -41,7 +41,6 @@ public class MessageListener extends ListenerAdapter
                     if(event.getMessage().getAttachments().get(0).download(file)) {
 
                         String downloadedFile = event.getMessage().getAttachments().get(0).getFileName();
-                        System.out.println("downloaded" + downloadedFile);
                         cf = new CloudFunctions(downloadedFile);
 
 
@@ -50,7 +49,12 @@ public class MessageListener extends ListenerAdapter
                             CropImage.crop(downloadedFile, vertices);
                             Message message = new MessageBuilder().append("My message").build();
                             event.getTextChannel().sendFile(new File("results.jpg"), message).queue();
-                            
+
+                            File xd = new File("results.jpg");
+                            xd.delete();
+
+                            File original = new File(downloadedFile);
+                            original.delete();
 
 
                         } catch (Exception e) {
