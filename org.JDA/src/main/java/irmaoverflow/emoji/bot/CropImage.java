@@ -41,7 +41,8 @@ public class CropImage {
 
     // Writing the cropped image.
     try {
-      ImageIO.write(croppedImage, "jpg", new File("results.jpg"));
+        File img = new File("results.jpg");
+      ImageIO.write(croppedImage, "jpg", img);
     }
     catch(Exception e) {
       e.printStackTrace();

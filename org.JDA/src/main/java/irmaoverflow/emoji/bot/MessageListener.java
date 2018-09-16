@@ -38,7 +38,7 @@ public class MessageListener extends ListenerAdapter
 //                    imageURL = event.getMessage().getAttachments().get(0).getUrl();
                     File file = new File(event.getMessage().getAttachments().get(0).getFileName());
 
-                    if(event.getMessage().getAttachments().get(0).download(file)) {
+//                    if(event.getMessage().getAttachments().get(0).download(file)) {
 
                         String downloadedFile = event.getMessage().getAttachments().get(0).getFileName();
                         System.out.println("downloaded" + downloadedFile);
@@ -50,13 +50,14 @@ public class MessageListener extends ListenerAdapter
                             CropImage.crop(downloadedFile, vertices);
                             Message message = new MessageBuilder().append("My message").build();
                             event.getTextChannel().sendFile(new File("results.jpg"), message).queue();
-                            
+//                            EmojiUpload eu = new EmojiUpload(file, event.getMessage().getGuild().getId());
+//                            eu.sendEmojiRequest();
 
 
                         } catch (Exception e) {
 
                         }
-                    }
+//                    }
 
                 }
                 //pass onto googCloud url

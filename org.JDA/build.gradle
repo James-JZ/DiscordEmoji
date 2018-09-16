@@ -19,4 +19,7 @@ repositories {
 dependencies {
     compile "net.dv8tion:JDA:$jdaVersion"
     compile 'com.google.cloud:google-cloud-vision:1.40.0'
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
+
 }
