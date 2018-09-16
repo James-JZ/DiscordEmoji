@@ -21,6 +21,7 @@ public class EmojiUpload {
     public void sendEmojiRequest() {
         JSONObject obj = new JSONObject();
         try {
+                img = new File("results.jpg");
                 FileInputStream fileInputStreamReader = new FileInputStream(img);
                 byte[] bytes = new byte[(int)img.length()];
                 StringBuilder sb = new StringBuilder();
