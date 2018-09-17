@@ -32,12 +32,7 @@ public class CropImage {
     int y = coords.get(0).getY();
     int xRange = coords.get(1).getX();
     int yRange = coords.get(2).getY();
-    System.out.println("YES");
-    // Crop the image. JAMES: 375, 836, 1058/2, 1519
     BufferedImage croppedImage = cropImage(bufferedImage, x, y, xRange-x, yRange-y);
-
-    // Path to cropped image.
-    File pathFile = new File("face.jpg");
 
     // Writing the cropped image.
     try {

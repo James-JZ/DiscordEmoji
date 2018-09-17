@@ -6,46 +6,24 @@ import com.google.cloud.vision.v1.*;
 import com.google.cloud.vision.v1.Feature.Type;
 import com.google.protobuf.ByteString;
 
-import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.net.URL;
 
 public class CloudFunctions {
     String filePath;
+
     CloudFunctions(String path) {
         filePath = path;
     }
-//
-//    public void saveImage(String imageUrl, String destinationFile) throws IOException {
-//        URL url = new URL(imageUrl);
-//        InputStream is = url.openStream();
-//        OutputStream os = new FileOutputStream(destinationFile);
-//
-//        byte[] b = new byte[2048];
-//        int length;
-//
-//        while ((length = is.read(b)) != -1) {
-//            os.write(b, 0, length);
-//        }
-//
-//        is.close();
-//        os.close();
-//    }
 
     public ArrayList<Vertex> getVertices() throws Exception {
         ArrayList<Vertex> ans = new ArrayList<>();
         // Instantiates a client
         try {
             ImageAnnotatorClient vision = ImageAnnotatorClient.create();
-            // The path to the image file to annotate
-//            String fileName = "https://www.dropbox.com/s/q7i1le9rqg4jwgw/james.jpg";
-//            saveImage(fileName, "./input.jpg");
-
-            // Reads the image file into memory
             Path path = Paths.get(filePath);
             byte[] data = Files.readAllBytes(path);
             ByteString imgBytes = ByteString.copyFrom(data);

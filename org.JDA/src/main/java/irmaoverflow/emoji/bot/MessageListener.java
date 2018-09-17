@@ -6,9 +6,6 @@ import net.dv8tion.jda.core.entities.ChannelType;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
-import net.dv8tion.jda.core.entities.Message.Attachment;
-
-import javax.security.auth.login.LoginException;
 import java.io.File;
 import java.util.ArrayList;
 
@@ -17,7 +14,6 @@ public class MessageListener extends ListenerAdapter
     @Override
     public void onMessageReceived(MessageReceivedEvent event)
     {
-        String imageURL = new String();
         if (event.isFromType(ChannelType.PRIVATE))
         {
             System.out.printf("[PM] %s: %s\n", event.getAuthor().getName(),
@@ -33,9 +29,7 @@ public class MessageListener extends ListenerAdapter
             if(event.getMessage().getContentDisplay().substring(0,1).equals(Constants.PREFIX)) {
                 String input= event.getMessage().getContentDisplay();
                 input = input.substring(1); //Remove prefix
-                System.out.println(input);
                 if((event.getMessage().getAttachments().get(0)).isImage()){
-//                    imageURL = event.getMessage().getAttachments().get(0).getUrl();
                     File file = new File(event.getMessage().getAttachments().get(0).getFileName());
 
                     if(event.getMessage().getAttachments().get(0).download(file)) {
@@ -50,14 +44,14 @@ public class MessageListener extends ListenerAdapter
                             Message message = new MessageBuilder().append("My message").build();
                             event.getTextChannel().sendFile(new File("results.jpg"), message).queue();
 
-                            EmojiUpload eu = new EmojiUpload(file, event.getMessage().getGuild().getId());
+                            EmojiUpload eu = new EmojiUpload(event.getMessage().getGuild(), downloadedFile);
                             eu.sendEmojiRequest();
 
                             File xd = new File("results.jpg");
                             xd.delete();
 
-                            File original = new File(downloadedFile);
-                            original.delete();
+
+
 
 
 
@@ -68,10 +62,6 @@ public class MessageListener extends ListenerAdapter
                     }
 
                 }
-                //pass onto googCloud url
-
-
-
 
             }
         }
